@@ -47,6 +47,8 @@ group :development, :test do
   
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  
+  gem 'rubocop', '~> 0.49.1', require: false
 end
 
 group :development do
